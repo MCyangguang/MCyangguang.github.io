@@ -1,0 +1,30 @@
+<html>
+    <head>
+     <title>YG登录页面</title>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         h1{
+            margin: 0;
+            padding: 0;
+            color: #0ff;}
+     </style>
+    </head>
+    <body>
+     <div style="position:relative;left:0%;">
+      <h1 style="position:relative;left:12%;">YG工作室</h1>
+      <hr/>
+      <img src="/storage/emulated/0/1HTML搭建/网站/YG logo.png" style="position:relative;left:15%;">
+         <form>
+             用户名:<br>
+             <input type="text" name="username" placeholder="请输入登录账号" value=""><br>
+             密码:<br>
+             <input type="password" value="" name="password" placeholder="请输入登录密码"><br>
+             <input type="submit" value="登录">
+             <a href="/regist/">立刻注册</a>
+         </form>
+     </div>
+    </body>
+</html>
